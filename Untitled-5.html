@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reset Password Page</title>
+    <script src="script5.js" defer></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fffefe;
+        border: 1px solid #a81c1c;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Reset Password</h2>
+      <form id="Reset-password-form">
+        <input
+          type="password"
+          placeholder="Enter New Password"
+          required
+          id="newPassword"
+        />
+        <br />
+        <input
+          type="password"
+          placeholder="Confirm New Password"
+          required
+          id="confirmPassword"
+        />
+        <br />
+        <button type="submit">Reset Password</button><br />
+      </form>
+    </div>
+  </body>
+</html>
